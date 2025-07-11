@@ -213,7 +213,7 @@ body {
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply cursor-none bg-background text-foreground;
   }
   svg {
     @apply h-full w-full;
