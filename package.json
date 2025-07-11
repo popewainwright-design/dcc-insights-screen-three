@@ -1,8 +1,8 @@
 {
-  "name": "dcc-insights-screen-two",
-  "productName": "DCC Insights Screen Two",
+  "name": "dcc-insights-screen-three",
+  "productName": "DCC Insights Screen Three",
   "version": "2.0.0",
-  "description": "DCC Insights Screen Two",
+  "description": "DCC Insights Screen Three",
   "main": ".vite/build/main.js",
   "scripts": {
     "start": "electron-forge start",
