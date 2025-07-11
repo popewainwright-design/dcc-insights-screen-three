@@ -52,12 +52,14 @@ const data = [
     dataRef: 'advancedAnalytics',
     className: 'row-start-3 row-end-3 col-start-2 col-end-3',
     type: 'standard',
+    longVideo: true,
   },
   {
     title: 'Edge',
     dataRef: 'edge',
     className: 'row-start-3 row-end-3 col-start-3 col-end-4',
     type: 'standard',
+    longVideo: true,
   },
   {
     className: 'row-start-2 row-end-4 col-start-4 col-end-6',
@@ -68,8 +70,8 @@ const data = [
 
 const data2 = [
   {
-    title: 'Convenience Beer Study',
-    dataRef: 'convenienceBeerStudy',
+    title: 'Convenience Beer Cooler VR Study',
+    dataRef: 'convenienceBeerCoolerVRStudy',
     className: 'row-start-1 row-end-2 col-start-1 col-end-2',
     type: 'standard',
   },

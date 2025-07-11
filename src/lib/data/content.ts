@@ -1,329 +1,266 @@
 export const content = {
-  offPremise: {
-    longVideo: './assets/videos/long-form/off-prem.mp4',
+  overview: {
+    longVideo: './assets/videos/long-form/overview.mp4',
   },
-  onPremise: {
-    longVideo: './assets/videos/long-form/on-prem.mp4',
+  analyticsToInsights: {
+    longVideo: './assets/videos/long-form/analytics-to-insights.mp4',
   },
-  categoryFundamentals: {
-    title: 'Category Fundamentals',
-    dataRef: 'categoryFundamentals',
-    slug: 'category-fundamentals',
-    slides: 50,
-    thumbs: [
-      {
-        index: 0,
-        title: 'Summary',
-      },
-      {
-        index: 5,
-        title: 'Space Optimization',
-      },
-      {
-        index: 21,
-        title: 'Navigation',
-      },
-      {
-        index: 44,
-        title: 'Secondary Locations',
-      },
-    ],
-  },
-  shopperPathToPurchase: {
-    title: 'Shopper Path to Purchase',
-    dataRef: 'shopperPathToPurchase',
-    slug: 'shopper-path-to-purchase',
-    slides: 15,
-    thumbs: [
-      {
-        index: 0,
-        title: 'An Evolved Path to Purchase',
-      },
-      {
-        index: 5,
-        title: 'Shopper Journey Fundamentals',
-      },
-      {
-        index: 8,
-        title: 'Winning in Omnichannel',
-      },
-    ],
-  },
-  shopperDecisionTree: {
-    title: 'Shopper Decision Tree',
-    dataRef: 'shopperDecisionTree',
-    slug: 'shopper-decision-tree',
-    slides: 19,
-    thumbs: [
-      {
-        index: 0,
-        title: 'Question',
-      },
-      {
-        index: 2,
-        title: 'Overarching Themes',
-      },
-      {
-        index: 5,
-        title: 'Purchase Designation',
-      },
-      {
-        index: 7,
-        title: 'The Purchase Types',
-      },
-      {
-        index: 16,
-        title: 'The Convenient: Overview',
-      },
-    ],
-  },
-  adjacenciesWork: {
-    title: 'Adjacencies Work',
-    dataRef: 'adjacenciesWork',
-    slug: 'adjacencies-work',
-    slides: 28,
+  videoAnalytics: {
+    title: 'Video Analytics',
+    dataRef: 'videoAnalytics',
+    slug: 'video-analytics',
+    slides: 12,
     videoIndex: 0,
     thumbs: [
       {
         index: 0,
-        title: 'Segment Adjacencies',
+        title: 'Video Analytics',
         type: 'video',
+        videoUrl: './assets/videos/long-form/video-analytics.mp4',
       },
       {
         index: 1,
-        title: '2021 Adjacencies',
+        title: 'Video Mining Grocery Study',
       },
       {
-        index: 13,
-        title: 'Appendix',
-      },
-      {
-        index: 16,
-        title: 'Aisle Subgroups',
-      },
-      {
-        index: 18,
-        title: 'Liquor Stores',
-      },
-      {
-        index: 23,
-        title: 'Grocery Stores',
+        index: 7,
+        title: 'Amoobi In-Store Lab Learning',
       },
     ],
   },
-  customerInsights: {
-    title: 'Customer Insights Engine',
-    dataRef: 'customerInsights',
-    slug: 'customer-insights-engine',
-    slides: 7,
+  virtualReality: {
+    title: 'Virtual Reality',
+    dataRef: 'virtualReality',
+    slug: 'virtual-reality',
+    slides: 6,
+    videoIndex: 4,
     thumbs: [
       {
         index: 0,
-        title: 'CIE Shopper Insights with Numerator',
+        title: 'Virtual Reality & Augmented Reality',
+      },
+      {
+        index: 1,
+        title: 'Shopper Behavior in immersive 3D virtual stores',
+      },
+      {
+        index: 2,
+        title: 'Identify Solutions to Top Retail Challenges',
+      },
+      {
+        index: 3,
+        title: 'Our VR Tech Partners',
       },
       {
         index: 4,
-        title: 'Customer Insights Engine Focus Areas',
+        title: 'Virtual Shopping User Experience',
+        type: 'video',
       },
       {
         index: 5,
-        title: 'Custom Dashboard with Flexible Filtering to Identify Insights',
+        title: 'Whats have we learned?',
       },
     ],
   },
-  diageoInsidersPanel: {
-    title: 'Diageo Insiders Panel',
-    dataRef: 'diageoInsidersPanel',
-    slug: 'diageo-insiders-panel',
-    slides: 8,
+  ai: {
+    title: 'AI',
+    dataRef: 'ai',
+    slug: 'ai',
+    slides: 5,
     thumbs: [
       {
         index: 0,
-        title: 'Diageo Insiders Panel - 4k TBA Drinkers',
+        title: 'Artificial intelligence enables us to better understand shoppers',
       },
       {
         index: 1,
-        title: 'Case Studies',
+        title: 'The artificial intelligence advantage',
       },
       {
-        index: 5,
-        title: 'Spirit Insiders Community Overview',
+        index: 2,
+        title: "Let's use all the data",
+      },
+      {
+        index: 3,
+        title: 'What AI identified about tequila purchase drivers',
+      },
+      {
+        index: 4,
+        title: 'In-the-moment purchase drivers and barriers',
       },
     ],
   },
-  theDrinkerJourney: {
-    title: 'The Drinker Journey',
-    dataRef: 'theDrinkerJourney',
-    slug: 'the-drinker-journey',
+  promoAndOtherAnalytics: {
+    title: 'Promo & Other Analytics',
+    dataRef: 'promoAndOtherAnalytics',
+    slug: 'promo-and-other-analytics',
+    slides: 6,
+    thumbs: [
+      {
+        index: 0,
+        title: 'Promo Tool Helps Bring Insights',
+      },
+      {
+        index: 2,
+        title: 'Leveraging AI to Predict Future Trends',
+      },
+      {
+        index: 3,
+        title: 'Emerging Trends',
+      },
+      {
+        index: 4,
+        title: 'Utilizing Numerator',
+      },
+      {
+        index: 5,
+        title: 'Numerator Analysis',
+      },
+    ],
+  },
+  advancedAnalytics: {
+    longVideo: './assets/videos/long-form/advanced-analytics.mp4',
+  },
+  edge: {
+    longVideo: './assets/videos/long-form/edge.mp4',
+  },
+  convenienceBeerCoolerVRStudy: {
+    title: 'Convenience Beer Cooler VR Study',
+    dataRef: 'convenienceBeerCoolerVRStudy',
+    slug: 'convenience-beer-cooler-vr-study',
     slides: 10,
     thumbs: [
       {
         index: 0,
-        title: 'The On Premise Journey',
-      },
-      {
-        index: 1,
-        title: 'The Drinker Situation',
-      },
-      {
-        index: 3,
-        title: 'Considerations',
-      },
-      {
-        index: 4,
-        title: 'Top Influences',
-      },
-      {
-        index: 6,
-        title: 'Discover',
-      },
-      {
-        index: 7,
-        title: 'Channel 1 Pager',
-      },
-      {
-        index: 8,
-        title: 'Casual Dining - Drinker Situation',
-      },
-      {
-        index: 9,
-        title: 'Location and Drink Choice Drivers',
-      },
-    ],
-  },
-  onPremiseMenuOptimization: {
-    title: 'On Premise Menu Optimization',
-    dataRef: 'onPremiseMenuOptimization',
-    slug: 'on-premise-menu-optimization',
-    slides: 8,
-    thumbs: [
-      {
-        index: 0,
-        title: 'Background & Objective',
-      },
-      {
-        index: 1,
-        title: '"Methodology Overview',
+        title: 'Convenience Beer Cooler VR Study',
       },
       {
         index: 2,
-        title: 'Analytics Overview',
-      },
-      {
-        index: 3,
-        title: 'The Menu Matters',
+        title: 'Key Takeaways',
       },
       {
         index: 4,
-        title: 'Consumers Have High Expectations',
+        title: 'Virtual Reality Test Comparison',
       },
       {
         index: 5,
-        title: 'Addressing Choice Barriers',
+        title: 'Moderate Increase in FMBS & Seltzers',
       },
       {
         index: 6,
-        title: 'Menus Enhance',
+        title: 'Heavy FMB Presence',
       },
       {
         index: 7,
-        title: 'Summary',
+        title: 'Heavy Seltzer Underperformance',
+      },
+      {
+        index: 8,
+        title: 'Heavy FMB Perfomance',
+      },
+      {
+        index: 9,
+        title: 'Major Retailer Implementation Potential',
       },
     ],
   },
-  onPremiseCategoryDevelopmentInsights: {
-    title: 'On Premise Category Development & Insights',
-    dataRef: 'onPremiseCategoryDevelopmentInsights',
-    slug: 'on-premise-category-development-insights',
-    slides: 4,
-    thumbs: [
-      {
-        index: 0,
-        title: 'Diageo Category Development',
-      },
-      {
-        index: 1,
-        title: 'On-Premise Category Development',
-      },
-      {
-        index: 2,
-        title: 'Menu Insights & Best Practices',
-      },
-      {
-        index: 3,
-        title: 'On-Premise Insight Tools & Capabilities',
-      },
-    ],
-  },
-  customInsightsEngine: {
-    title: 'Custom Insights Engine (CIE)',
-    dataRef: 'customInsightsEngine',
-    slug: 'custom-insights-engine',
-    slides: 4,
-    thumbs: [
-      {
-        index: 0,
-        title: 'CIE Overview',
-      },
-    ],
-  },
-  turfAnalysis: {
-    title: 'Turf Analysis',
-    dataRef: 'turfAnalysis',
-    slug: 'turf-analysis',
-    slides: 4,
-    thumbs: [
-      {
-        index: 0,
-        title: 'Menu Optimization TURF Study',
-      },
-    ],
-  },
-  onPremiseBeerLineUpOptimization: {
-    title: 'On Premise Beer Line Up Optimization',
-    dataRef: 'onPremiseBeerLineUpOptimization',
-    slug: 'on-premise-beer-line-up-optimization',
+  nonAlcVRStudy: {
+    title: 'Non-Alc VR Study',
+    dataRef: 'nonAlcVRStudy',
+    slug: 'non-alc-vr-study',
     slides: 7,
     thumbs: [
       {
         index: 0,
-        title: 'Optimization Analysis (TURF)',
+        title: 'Non-Alc Placement Study Overview',
       },
       {
         index: 1,
-        title: 'Optimizing Retailer Profit',
+        title: 'Total US shopper panel data',
       },
       {
         index: 2,
-        title: 'Retail Channels Included in Analysis',
+        title: 'Variation across the set',
       },
       {
         index: 3,
-        title: 'Guinness Draft',
+        title: 'Dollar sales and buyer penetration rates',
+      },
+      {
+        index: 4,
+        title: 'Product organization',
+      },
+      {
+        index: 6,
+        title: 'Summary & Recommendations',
       },
     ],
   },
-  beerConsumerTrendTracker: {
-    title: 'Beer Consumer Trend Tracker',
-    dataRef: 'beerConsumerTrendTracker',
-    slug: 'beer-consumer-trend-tracker',
-    slides: 4,
+  sideVsFrontFacingAnalysis: {
+    title: 'Side vs Front Facing Analysis',
+    dataRef: 'sideVsFrontFacingAnalysis',
+    slug: 'side-vs-front-facing-analysis',
+    slides: 5,
     thumbs: [
       {
         index: 0,
-        title: 'Customer Trend Tracker',
+        title: 'Side vs. Front Facing Analysis',
       },
       {
         index: 1,
-        title: 'Why Shoppers Buy the Category',
+        title: 'Side vs. Front Facing Item Analysis',
       },
       {
         index: 2,
-        title: 'Detailed Beer Category Selection',
+        title: 'When Items are front-faced...',
       },
       {
         index: 3,
-        title: 'Shopper Perceptions Over Time',
+        title: 'Front-faced Items sales potential',
+      },
+      {
+        index: 4,
+        title: 'FMB segment sales lift potential',
+      },
+    ],
+  },
+  virtualRealityBeerMindfulStudy: {
+    title: 'Virtual Reality Beer Mindful Study',
+    dataRef: 'virtualRealityBeerMindfulStudy',
+    slug: 'virtual-reality-beer-mindful-study',
+    slides: 8,
+    thumbs: [
+      {
+        index: 0,
+        title: 'Virtual Reality Beer Mindful Section Study',
+      },
+      {
+        index: 1,
+        title: 'Mindful Section Overview',
+      },
+      {
+        index: 2,
+        title: "The beer category lags in attracting the 'Mindful' shopper",
+      },
+      {
+        index: 3,
+        title: "'Mindful' segments performed better...",
+      },
+      {
+        index: 4,
+        title: "Responses to the 'mindful' section",
+      },
+      {
+        index: 5,
+        title: 'Female response to Mindful items',
+      },
+      {
+        index: 6,
+        title: 'Non-alc beer sales performance',
+      },
+      {
+        index: 7,
+        title: 'Smirnoff Ice Zero buyer demos match hard seltzers',
       },
     ],
   },
