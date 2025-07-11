@@ -8,7 +8,7 @@ import ScenarioIndex from './screens/scenario-index';
 import InactivityTimer from './components/inactivity-timer';
 
 function App() {
-  const [screen, setScreen] = useState<ScreenNav>({ screen: 'screensaver' });
+  const [screen, setScreen] = useState<ScreenNav>({ screen: 'dashboard' });
   const [dataRef, setDataRef] = useState<ScreenProps['dataRef']>('macroTrends');
   const [viewInitalScreen, setViewInitalScreen] = useState<'prev' | 'next' | null>('prev');
   const [currentScenario, setCurrentScenario] = useState(0);
