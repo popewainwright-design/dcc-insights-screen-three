@@ -1,0 +1,104 @@
+{
+  "name": "dcc-insights-screen-two",
+  "productName": "DCC Insights Screen Two",
+  "version": "2.0.0",
+  "description": "DCC Insights Screen Two",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "eslint --ext .ts,.tsx .",
+    "format": "prettier --write .",
+    "make:mac": "npm run make -- --platform=darwin"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Mark Wilson",
+    "email": "mark@mwdd.io"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.8.1",
+    "@electron-forge/maker-deb": "^7.8.1",
+    "@electron-forge/maker-dmg": "^7.8.1",
+    "@electron-forge/maker-rpm": "^7.8.1",
+    "@electron-forge/maker-squirrel": "^7.8.1",
+    "@electron-forge/maker-zip": "^7.8.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.8.1",
+    "@electron-forge/plugin-fuses": "^7.8.1",
+    "@electron-forge/plugin-vite": "^7.8.1",
+    "@electron/fuses": "^1.8.0",
+    "@types/electron-squirrel-startup": "^1.0.2",
+    "@types/node": "^22.15.19",
+    "@types/react-dom": "^19.1.5",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "dotenv": "^17.0.1",
+    "electron": "36.2.1",
+    "eslint": "^8.57.1",
+    "eslint-plugin-import": "^2.31.0",
+    "i": "^0.3.7",
+    "npm": "^11.4.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "ts-node": "^10.9.2",
+    "typescript": "~4.5.4",
+    "vite": "^5.4.19"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
+    "@tailwindcss/postcss": "^4.1.7",
+    "@tailwindcss/vite": "^4.1.7",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "electron-squirrel-startup": "^1.0.1",
+    "embla-carousel-react": "^8.6.0",
+    "firebase": "^11.7.3",
+    "lucide-react": "^0.511.0",
+    "motion": "^12.19.2",
+    "postcss": "^8.5.3",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss": "^4.1.11",
+    "tailwindcss-animate": "^1.0.7",
+    "tw-animate-css": "^1.3.0"
+  },
+  "build": {
+    "appId": "com.diageo.dcc.insights.screen.one",
+    "productName": "DCC: Insights Screen One",
+    "copyright": "Copyright © 2025 Diageo",
+    "mac": {
+      "identity": "Pope Wainwright Ltd (9S5TU75PRV)",
+      "target": [
+        "dmg"
+      ],
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "entitlements": "./entitlements.plist",
+      "entitlementsInherit": "./entitlements.plist",
+      "icon": "public/assets/icons/icon.icns"
+    },
+    "dmg": {
+      "sign": false,
+      "icon": "public/assets/icons/icon.icns"
+    },
+    "files": [
+      "out/**/*",
+      "public/**/*",
+      "package.json",
+      "package-lock.json"
+    ],
+    "directories": {
+      "output": "out"
+    },
+    "extraResources": [
+      {
+        "from": "public/assets",
+        "to": "assets"
+      }
+    ]
+  }
+}
